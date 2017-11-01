@@ -1,0 +1,119 @@
+.icon {
+    font-size: 10px;
+}
+
+.icon:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 0em 0em;
+}
+
+.no-svg .icon:before {
+    background-image: url("../svg/sprite.png");
+}
+
+
+
+  .icon.climate:before {
+      background-position: 0em 0em;
+      width: 0em;
+      height: 0em;
+  }
+
+
+
+
+  .icon.landcover:before {
+      background-position: 0em 0em;
+      width: 0em;
+      height: 0em;
+  }
+
+
+
+
+  .icon.lidcontrols:before {
+      background-position: 0em 0em;
+      width: 0em;
+      height: 0em;
+  }
+
+
+
+
+  .icon.location:before {
+      background-position: 0em 0em;
+      width: 0em;
+      height: 0em;
+  }
+
+
+
+
+  .icon.polygon:before {
+      background-position: 0em 0em;
+      width: 0em;
+      height: 0em;
+  }
+
+
+
+
+  .icon.precipitation:before {
+      background-position: 0em 0em;
+      width: 0em;
+      height: 0em;
+  }
+
+
+
+
+  .icon.projectcost:before {
+      background-position: 0em 0em;
+      width: 0em;
+      height: 0em;
+  }
+
+
+
+
+  .icon.results:before {
+      background-position: 0em 0em;
+      width: 0em;
+      height: 0em;
+  }
+
+
+
+
+  .icon.soildrainage:before {
+      background-position: 0em 0em;
+      width: 0em;
+      height: 0em;
+  }
+
+
+
+
+  .icon.soiltype:before {
+      background-position: 0em 0em;
+      width: 0em;
+      height: 0em;
+  }
+
+
+
+
+  .icon.topography:before {
+      background-position: 0em 0em;
+      width: 0em;
+      height: 0em;
+  }
+
+
+
+
+

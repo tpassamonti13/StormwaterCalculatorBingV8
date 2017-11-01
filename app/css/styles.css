@@ -1,0 +1,88 @@
+input[type="text"],
+input[type="number"] {
+  border: 0;
+  height: 50px; }
+
+#loadingDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 3;
+  display: none; }
+
+#navigationBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 75px;
+  height: 100%;
+  background-color: #efefef; }
+
+#navigationTable {
+  width: 100%;
+  margin-top: 25px; }
+
+#navigationTable td {
+  height: 71px; }
+
+.navigationLink {
+  height: 90%;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-left: 3.5px;
+  cursor: pointer; }
+
+.navigationLink:hover {
+  background-color: #199493; }
+
+.navigationIcon {
+  position: absolute;
+  left: 13px;
+  margin-top: 5px;
+  fill: #000000; }
+
+#bingMap {
+  position: absolute;
+  top: 25px;
+  left: 100px;
+  width: calc(100% - 125px);
+  height: calc(100% - 50px);
+  background-color: #a3a3a3;
+  z-index: 1; }
+
+#modal {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 300px;
+  height: auto;
+  background-color: #7cb2ab;
+  padding: 10px;
+  padding-top: 0;
+  color: #fff;
+  z-index: 2;
+  font-size: 12px; }
+
+#modal .panel-group {
+  color: #000; }
+
+.panel-title a {
+  text-decoration: none; }
+
+.directionsIcon {
+  float: right;
+  color: #199493; }
+
+.customAreaRow {
+  height: 35px;
+  overflow: hidden; }
+
+#customAreaIcon {
+  fill: #7cb2ab;
+  stroke: #fff;
+  stroke-width: 3;
+  cursor: pointer; }
